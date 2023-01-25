@@ -1,0 +1,21 @@
+public class Employee
+{
+    int employeeId;
+    int salary;
+    String dept;
+    
+    Employee(int empid, int sal, String d)
+    {
+        employeeId = empid;
+        salary = sal;
+        dept = d;
+    }
+    public static void main(String args[])
+    {
+        Employee harsha = new Employee(101,3000,"Testing");
+        Employee varsha = new Employee(102,5000,"Engineering");
+        System.out.println(harsha.employeeId+" salary "+harsha.salary+" Dept "+harsha.dept);
+        
+        System.out.println(varsha.employeeId+" salary "+varsha.salary+" Dept "+varsha.dept);
+    }
+}
