@@ -1,0 +1,18 @@
+public class Employee
+{
+    int employeeId;
+    int salary;
+    String dept;
+    
+    Employee()
+    {
+        employeeId = 101;
+        salary = 3000;
+        dept = "testing";
+    }
+    public static void main(String args[])
+    {
+        Employee harsha = new Employee();
+        System.out.println(harsha.employeeId+" salary "+harsha.salary+" Dept "+harsha.dept);
+    }
+}
